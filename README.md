@@ -1,3 +1,16 @@
-# web-automation-codex-v2
+# Web Automation Codex v2
 
-Minimal starter repository used for automation experiments. The current structure contains a simple `test-codex` folder with a placeholder file for validating basic Git operations.
+This repository contains a minimal Selenium web automation project built with Java, Maven, and TestNG.
+
+## Project Structure
+
+- `pom.xml` includes Selenium, TestNG, and WebDriverManager dependencies.
+- `src/test/java` contains a sample TestNG test that opens Google and verifies the page title.
+
+## Run Tests
+
+```bash
+mvn test
+```
+
+The test uses Chrome in headless mode via WebDriverManager.
